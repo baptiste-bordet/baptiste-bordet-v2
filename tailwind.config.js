@@ -1,10 +1,15 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
       darkGray: '#1c1e27',
-      white: '#FFFFFF'
+      white: '#FFFFFF',
+      blue: colors.blue,
+      darkblue:'#000076',
+      green: colors.green,
     },
     container: {
       padding: {
